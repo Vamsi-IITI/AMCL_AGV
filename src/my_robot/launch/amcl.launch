@@ -8,6 +8,11 @@
   <node name="amcl" pkg="amcl" type="amcl" output="screen">
 
     <!-- <remap from="scan" to="myrobot/laser/scan"/> -->
+
+    <param name="base_frame" value="base_footprint"/>
+    <param name="odom_frame" value="odom"/>
+    <param name="map_frame"  value="map"/>
+
     <param name="odom_frame_id" value="odom"/>
     <param name="odom_model_type" value="diff-corrected"/>
     <param name="base_frame_id" value="robot_footprint"/>
@@ -32,4 +37,7 @@
     
   </node>
 
+  <!--launch rviz-->
+  <node name="rviz" pkg="rviz" type="rviz" respawn="false"/>
+  
 </launch>
