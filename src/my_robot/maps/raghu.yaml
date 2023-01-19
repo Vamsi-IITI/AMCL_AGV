@@ -1,4 +1,4 @@
-image: /home/raghu/ROS/raghu.pgm
+image: /home/raghu/AMCL_AGV/src/my_robot/maps/raghu.pgm
 resolution: 0.050000
 origin: [-10.000000, -10.000000, 0.000000]
 negate: 0
