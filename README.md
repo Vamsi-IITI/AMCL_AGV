@@ -27,6 +27,9 @@ The mobile robot can be navigated using two features and hence we have two optio
 
 * Send navigation goal via RViz
 * Send move command via teleop package.
+```
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+```
 Navigate your robot, observe its performance and tune parameters for AMCL.
 
 ## Some screenshots : - 
