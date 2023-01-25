@@ -7,7 +7,7 @@ A ROS package using amcl ros package for localization of a two wheeled different
 ```
 git clone https://github.com/Vamsi-IITI/AMCL_AGV.git
 ```
-* You need to edit amcl launch file , there in rviz node you need to give path of rviz_config.rviz file in your system
+* You may need to edit amcl launch file , there in rviz node you need to give path of rviz_config.rviz file in your system
 * Enter the repositry and make
 ```
 cd AMCL_AGV
